@@ -55,7 +55,7 @@ def get_gemini_explanation(json_data: dict) -> str:
 
     Keep your entire response to under 70 words.
     """
-    api_key = "AIzaSyAzRB34Gh9j44XbELH0whot-K8Ig5hA5ew"
+    api_key = "*********"
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key={api_key}"
     payload = {"contents": [{"parts": [{"text": prompt}]}]}
     try:
